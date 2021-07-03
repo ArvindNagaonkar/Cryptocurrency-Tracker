@@ -22,8 +22,8 @@ const Coins = ({
                 src={image}
                 alt={name}
                 className={styles.coin_img}
-                width={100}
-                height={100}
+                width={50}
+                height={50}
               />
               <h1 className={styles.coin_h1}>{name}</h1>
               <p className={styles.coin_symbol}>{symbol}</p>
